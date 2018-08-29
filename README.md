@@ -1,2 +1,2 @@
-##guiForm, A simple Java Gui 
+# Java gui Form
 
