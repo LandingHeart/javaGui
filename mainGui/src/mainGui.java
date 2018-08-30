@@ -28,10 +28,10 @@ public class mainGui {
     }
     void print(String []userName, String []ID){
         for (int i = 0; i< ID.length; i++){
-            System.out.println(userName[i]);
-            System.out.println(ID[i]);
-            if (ID[i] == "" && userName[i] == ""){
-                break;
+
+            if (ID[i] != null && userName[i] != null){
+                System.out.println(userName[i]);
+                System.out.println(ID[i]);
             }
         }
 
@@ -65,6 +65,6 @@ public class mainGui {
         frame.setVisible(true);
 
 
-   }
+    }
 
 }
